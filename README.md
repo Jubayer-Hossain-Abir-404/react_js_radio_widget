@@ -8,4 +8,4 @@
  Then type 
      * npm start to start the project in your localhost
   Finally click on the radio selection type UI and see the toggle and footer Text
-                          Thank You
+                          
