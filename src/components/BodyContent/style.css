@@ -1,0 +1,116 @@
+.body-container{
+    background: rgba(0, 0, 0, 0.836);
+    height: 70%;
+    padding: 20px 20px;
+    color: #a9a9a9;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    overflow-y: auto;
+}
+
+/* used to make the auto scroll display:none */
+.body-container::-webkit-scrollbar {
+    display: none;
+}
+
+.body-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
+  }
+
+.radio1{
+    cursor: pointer;
+    transition: height .2s ease-in;
+}
+.radio2{
+    cursor: pointer;
+}
+.radio3{
+    cursor: pointer;
+}
+.radio4{
+    cursor: pointer;
+}
+.radio5{
+    cursor: pointer;
+}
+.radio1 p:first-child{
+    font-weight: 600;
+}
+
+.radio2 p:first-child{
+    font-weight: 600;
+}
+
+.radio3 p:first-child{
+    font-weight: 600;
+}
+
+.radio4 p:first-child{
+    font-weight: 600;
+}
+
+.radio5 p:first-child{
+    font-weight: 600;
+}
+
+.radio1 p:last-child{
+    font-weight: 700;
+}
+
+.radio2 p:last-child{
+    font-weight: 700;
+}
+
+.radio3 p:last-child{
+    font-weight: 700;
+}
+
+.radio4 p:last-child{
+    font-weight: 700;
+}
+
+.radio5 p:last-child{
+    font-weight: 700;
+}
+
+.radio_border{
+    border-bottom: 1px solid grey;
+}
+
+.radio1_content{
+    transition: height .5s ease-in;
+}
+
+.radio_image{
+    width: 120px;
+    height: 120px;
+    background: grey;
+    border-radius: 50%;
+}
+
+.plus_btn{
+    margin: 0 -5px;
+    cursor: pointer;
+}
+
+.minus_btn{
+    margin: 0 -5px;
+    cursor: pointer;
+}
+
+.radio2_content{
+    margin-top: 20px;
+}
+
+.radio3_content{
+    margin-top: 20px;
+}
+
+.radio4_content{
+    margin-top: 20px;
+}
+
+.radio5_content{
+    margin-top: 20px;
+}

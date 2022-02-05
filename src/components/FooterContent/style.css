@@ -1,0 +1,28 @@
+.footer-container{
+    background: rgba(0, 0, 0, 0.836);
+    height: 18%;
+    /* used to create the bottom radius at both the side */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.footer_text{
+    height: 100%;
+    padding-top: 2px;
+    
+}
+
+.footer_text p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ED820E;
+    padding: 0 30%;
+}
+
+.footer_text p:last-child{
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #a9a9a9;
+    padding: 0 30%;
+}

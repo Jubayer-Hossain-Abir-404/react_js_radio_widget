@@ -1,0 +1,41 @@
+.header button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.back_arrow_button{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.back_arrow_image{
+    height: 30px;
+    width: auto;
+}
+
+.header button img{
+    width: 30px;
+}
+
+.header-container{
+    background: #ED820E;
+    border-bottom: 1px solid black;
+    /* used to create the top radius at both side */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px 0;
+}
+
+.switch_button{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.stations_text{
+    margin: 15px 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
